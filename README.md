@@ -1,1 +1,3 @@
-# hackathon-loreal
+ # L'Oreal Hackathon
+ 
+This project develops a lightweight, custom language model to classify skin conditions from text data. In the initial phase, we leveraged AWS's advanced large language models (LLMs) with a majority voting system across seven iterations to create reliable dataset labels. We then built a tailored model, incorporating bidirectionality to detect subtle patterns in text—essential as 97% of our 24,000 tokens appeared fewer than 80 times. Through prompt engineering, we optimized the model's performance, fine-tuning input prompts to enhance accuracy. This approach delivered an impressive weighted F1-score of 0.87 while minimizing carbon emissions and training time, aligning with our sustainability goals. The project highlights the power of specialized, agent-like models for industry needs and showcases our commitment to sustainable, innovative machine learning solutions.
