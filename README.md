@@ -17,7 +17,7 @@ Build a sustainable and efficient machine learning model to classify skin condit
 
 - Unlabeled Data: 6,241 English descriptions (7–822 words, ~115 words on average)
 
-
+</br>
 In our implementation, we:
 - Used AWS LLMs with a majority voting system (7 iterations) to create reliable labels.
 
