@@ -36,11 +36,11 @@ clf = MultiOutputClassifier(
     RandomForestClassifier(n_estimators=100, random_state=42)
 )
 
-# 6. Track carbon emissions (optional)
+# 6. Track carbon emissions
 tracker = EmissionsTracker(allow_multiple_runs=True)
 tracker.start()
 
-# 7. Train (fit) the model
+# 7. Train the model
 clf.fit(X_train, y_train)
 
 emissions = tracker.stop()
