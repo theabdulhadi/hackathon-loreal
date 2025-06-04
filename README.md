@@ -4,7 +4,7 @@
 
 Build a sustainable and efficient machine learning model to classify skin conditions from beauty product descriptions. Our goal is to use the power of Large Language Models (LLMs) to label data and train a compact, high-performing model suitable for production environments. By prioritizing sustainability, we aim to minimize model size and resource consumption while achieving top-notch accuracy. Assisted L'Oreal France in creating innovative, eco-friendly solutions for skin condition classification!
 
- ## What I Do:
+ ## What I Did:
 - Label Data with LLMs: Use advanced LLMs (e.g., OpenAI, LLaMA) to generate accurate labels for 6,241 unlabeled beauty product descriptions, leveraging a seed dataset of 200 labeled examples (covering skin conditions like oily, dry, normal, etc.).
 
 - Train a Model: Develop a machine learning model to classify skin conditions based on the labeled dataset.
