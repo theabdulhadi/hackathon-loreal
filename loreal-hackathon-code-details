@@ -1,0 +1,15 @@
+# Code Description
+
+This Python script trains a multi-label classification model for skin condition classification using text data from an excel file; which was given to us by L'Oreal. The code:
+
+- Loads the dataset, separating text (text_raw) from multiple label columns.
+
+- Converts text to TF-IDF features.
+
+- Splits data into 80/20 train-test sets.
+
+- Trains a Random Forest classifier within a MultiOutputClassifier for multi-label predictions.
+
+- Tracks carbon emissions during training with CodeCarbon.
+
+- Evaluates performance using accuracy, macro precision, macro F1-score, and a per-label classification report.
